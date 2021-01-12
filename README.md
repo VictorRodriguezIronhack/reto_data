@@ -42,4 +42,4 @@ Demuéstranos tus habilidades y justifica los 32k que queremos pagarte. Tienes 4
 
 Vuelvete loc@ si quieres conseguir el puesto, el límite lo pones tu.
 
-P.D: Aunque el tono es informal, el reto va en serio y es muy parecido a los que encontraréis en el mundo real.
+##### P.D: Aunque el tono es informal, el reto va en serio y es muy parecido a los que encontraréis en el mundo real.
