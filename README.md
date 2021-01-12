@@ -40,9 +40,9 @@ Demuéstranos tus habilidades y justifica los 32k que queremos pagarte. Tienes 4
 - Mételo todo en una base de datos
 - Haz tu propia API para servir datos / predicciones / gráficos
 
-Para entregar tu propuesta haz fork del repo y cuando hayas terminado haz un pull. 🤯
-No olvides añadir cualquier documento como PDFs, Slides o todo aquello que se te ocurra. 
-Puedes tomar ejemplo de nuestros instructores y montar algo con https://www.streamlit.io/ 🚀
+Para entregar tu propuesta haz fork del repo y cuando hayas terminado haz un pull. 🤯  
+No olvides añadir cualquier documento como PDFs, Slides o todo aquello que se te ocurra.   
+Puedes tomar ejemplo de nuestros instructores y montar algo con https://www.streamlit.io/ 🚀  
 
 Vuelvete loc@ si quieres conseguir el puesto, el límite lo pones tu.
 
