@@ -25,7 +25,7 @@ Ahora es tu turno: ¿puedes ayudarnos a elegir el mejor combustible?
 
 Nos hemos tomado la molestia de guardar algunos consumos en un .csv pero... no estaría de mas si puedes añadir algún dato más. El link con los datos es el siguiente: https://www.kaggle.com/anderas/car-consume?select=measurements.csv
 
-Demuéstranos tus habilidades y justifica los 32k que queremos pagarte. Tienes 48h para entregar el reto. 💸
+Demuéstranos tus habilidades y justifica los 32k que queremos pagarte. Tienes 72h para entregar el reto desde este preciso instante 💸
 
 ##### Importante 🚧
 
