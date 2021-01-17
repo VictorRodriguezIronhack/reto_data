@@ -2,8 +2,6 @@ import time
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
-import tqdm
-import json
 import pandas as pd
 
 class Scrape():
