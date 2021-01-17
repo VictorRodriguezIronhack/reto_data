@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+__pycache__/
+./dataset/csv_limpio.csv
+./dataset/cvs_enriquecido.csv
+./dataset/measurements.csv
+./dataset/measurements2.xlsx
