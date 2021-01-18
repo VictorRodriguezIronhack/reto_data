@@ -1,0 +1,232 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <title>Document</title>
+
+  
+  <style>
+    body {
+    background: url(https://www.top-semi.com.tw/wordpress/wp-content/uploads/2019/04/%E5%88%86%E6%9E%904-%E7%B8%AE3.jpg);
+    background-size: 100%;
+    font-family: 'Poppins', monospace;
+    color: white;
+    font-size: .7em;
+    font-weight: 200;
+    letter-spacing: 1px;
+  }
+  
+  html {
+    padding: 20px;
+    font-weight: 300;
+  }
+  
+  main {
+      padding: 60px;
+  }
+  
+  section {
+      margin-bottom: 40px;
+  }
+  
+  h1 {
+      font-size: 3em;
+      font-weight: 100;
+  }
+  
+  h2, h3, p {
+      font-size: 1.3em;
+      margin-bottom: 29px;
+      border-bottom: 1px solid rgba(255,255,255,.2);
+      padding-bottom: 15px;
+      font-weight: 200;
+  }
+  
+  hr {
+      border-color: white;
+      margin-bottom: 50px;
+  }
+  
+  figure {
+      background-color: rgba(255,255,255,.05);
+      padding: 10px 10px 30px;
+  }
+  
+  figure p {
+      margin-bottom: 7px;
+      font-size: .8em;
+  }
+  
+  canvas {
+      width: 100%;
+  }
+  
+  
+  /* grid */
+  
+  section[class*='cols'] {
+      display: flex;
+  }
+  
+  .cols-3 > * {
+      width: 33.33%;
+      margin: 10px
+  }
+  
+  .cols-2 > * {
+      width: 50%;
+      margin: 10px
+  }
+  
+  .cols-1 > * {
+      width: 100%;
+      margin: 10px
+  }
+  
+  #chart6 {
+      max-height: 300px;
+  }
+  
+  
+  
+  section {
+      opacity: 0;
+  }
+  
+  .running section {
+      opacity: 1
+  }
+  
+  .loading {
+      position: absolute;
+      border: none;
+  }
+  
+  .running .loading {
+      display: none;
+  }
+
+  .slider {
+    width: 95%;
+    margin: auto;
+    overflow: clip;
+  }
+
+  .slider ul {
+    display: flex;
+    padding: 0;
+    width: 100%;
+  
+    
+    animation: cambio 20s infinite alternate linear;
+  }
+
+  .slider li {
+    width: 100%;
+    list-style: none;
+  }
+
+  .slider img {
+    width: 100%;
+  }
+
+  @keyframes cambio {
+    0% {margin-left: -45;}
+    20% {margin-left: -45;}
+    
+    25% {margin-left: 30%;}
+    45% {margin-left: -30%;}
+    
+  }
+
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+  /* .content-table {
+    margin: 25px 0;
+    font-size: 0.9cm;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20x rgba(0, 0, 0, 0.15);
+
+  } */
+
+ </style>
+
+
+</head>
+<body>
+
+  
+
+  <div>
+    <form name="f1" action="/upload" method="POST" enctype="multipart/form-data">
+
+      <table style="width:100%" class='content-table'>
+
+        <tr>
+          <td colspan="6" VALIGN="TOP" ALIGN="CENTER" >
+            <h1> Prediccion del Mejor Gas
+            </h1>
+            </td>
+        </tr>
+
+        
+        <tr >
+          <td VALIGN="TOP" ALIGN="CENTER">
+            <p>Distancia en Km </p><br />
+            <input type="text" id="fname" name="distancia">
+          </td>
+
+      
+          <td VALIGN="TOP" ALIGN="CENTER"> 
+            <p>Velocidad en Km/h </p><br />
+            <input type="text" id="fname" name="velocidad">
+          </td>  
+
+          <td VALIGN="TOP" ALIGN="CENTER"> 
+            <p>Temp. Int en ªC </p><br />
+            <input type="text" id="fname" name="temp_int">
+          </td>  
+
+          <td VALIGN="TOP" ALIGN="CENTER"> <p>Temp. Ext en ªC </p><br />
+            <input type="text" id="fname" name="temp_out">
+          </td>  
+        
+
+          <td VALIGN="TOP" ALIGN="CENTER"> 
+            <p>Uso del Aire Acondicionado  </p><br />
+            Si: <input type="radio" name="ac" value="1" /><br />
+            No: <input type="radio" name="ac" value="0" />
+          </td> 
+
+          <td VALIGN="TOP" ALIGN="CENTER">
+            <p>Esta lloviendo o Nevando  </p><br />
+            Si: <input type="radio" name="rain" value="1" /><br />
+            No: <input type="radio" name="rain" value="0" />
+          </td> 
+
+          <td VALIGN="TOP" ALIGN="CENTER">
+            <p> Era soleado  </p><br />
+            Si: <input type="radio" name="sun" value="1" /><br />
+            No: <input type="radio" name="sun" value="0" />
+          </td> 
+        </tr> 
+
+        <tr>
+
+          <td colspan="6" VALIGN="TOP" ALIGN="CENTER"><br /><input type="submit" value="Buscar"  width='30%' ></td>
+        </tr> 
+
+      
+      </table>
+    </form>
+ 
+    <p> IMPORTANTE: si va a colocar decimales utilice punto(.) para la separacion, ademas se recomienda no colocar mas de 2 decimales </p><br />
+
+</body>
+</html>
