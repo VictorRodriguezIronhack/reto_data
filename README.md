@@ -46,6 +46,6 @@ Puedes tomar ejemplo de nuestros instructores y montar algo con https://www.stre
 
 Vuelvete loc@ si quieres conseguir el puesto, el límite lo pones tu.
 
-##### P.D: Aunque el tono es informal, el reto va en serio y es muy parecido a los que encontraréis en el mundo real. 🤔
+##### P.D: Aunque el tono es informal, el reto va en serio y es muy parecido a los que encontraréis en el mundo real. 🤔 H
 
 
