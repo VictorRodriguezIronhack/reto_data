@@ -1,4 +1,4 @@
-,refill_liters,refill_gas
+consume_id,refill_liters,refill_gas
 0,45.0,E10
 44,37.6,SP98
 82,37.7,SP98

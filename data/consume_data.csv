@@ -1,4 +1,4 @@
-,distance,consume,speed,temp_inside,temp_outside,gas_type,AC,rain,sun,snow
+consume_id,distance,consume,speed,temp_inside,temp_outside,gas_type,AC,rain,sun,snow
 0,28.0,5.0,26,21.5,12,E10,0,0,0,0
 1,12.0,4.2,30,21.5,13,E10,0,0,0,0
 2,11.2,5.5,38,21.5,15,E10,0,0,0,0
