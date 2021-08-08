@@ -1,4 +1,4 @@
-![portada](https://github.com/ccastroblua/reto_data/blob/main/images/cobify.jpg)
+![portada](images/cobify.jpg)
 
 # Cobify Interview Challenge (Ironhack)🚕
 
