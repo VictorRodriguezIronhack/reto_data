@@ -3,14 +3,14 @@
 # Cobify Interview Challenge (Ironhack)🚕
 
 This is an ironhack project similar to an interview case study for a data analyst position. I used data from a car consume on two different fuels (SP98 and E10).
-I've used MySQL to store the data, python for the ETL process and streamlit to present the my analysis and conclusions.
+I've used MySQL to store the data, python for the ETL process and streamlit to present in a webpage my analysis, plots and conclusions.
 
 This project has several stages defined:
 1. Dataframe cleaning and manipulation.
 2. Data analysis and visualization.
 3. Using API to get more data.
 4. MySQL database structure and tables creation.
-5. Creating a web page with streamlit. 
+5. Creating a web page with streamlit with plots and analysis summary.
 
 ## Conclusions:
 I would choose E10 because:
