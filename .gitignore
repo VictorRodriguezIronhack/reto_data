@@ -1,0 +1,7 @@
+*.csv
+*.jpg
+*.xlsx
+.DS_Store
+.ipynb_checkpoints/
+4- API call.ipynb
+/Images
