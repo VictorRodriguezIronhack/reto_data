@@ -5,11 +5,12 @@ import pandas as pd
 
 def stats_df(df):
     """
-    Function to create an histogram to compare E10 and SP98 fuel.
+    Function to create a a grouped dataframe and show it's statistics 
+    (Standard deviation, mean, median, minimum and maximum).
     Args: 
-        None
+        df: dataframe
     Returns:
-        A seaborn basic histogram
+        df: grouped dataframe and aggregated statistics for consume
     """
     stats = df.groupby("gas_type").consume.agg(["std", "mean", "median", "min", "max"])
 
