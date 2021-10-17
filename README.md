@@ -5,22 +5,22 @@ Given some data from a motor vehicle startup company, the objective is to determ
 
 ## Some Analysis
 Here we can see that there is a spike in gas consumption at low distances and low speeds, this might be attributed to the possibility that these trips were mostly in the city, where the movement  might be limited by traffic and travel distances might be short. They might not be moving too much, but just having the engine runing  makes the consumption skyrocket while not moving (the consumption is measured in litres per 100 kilometres).  
-![distance](https://github.com/DiegoCefalo/reto_data/blob/main/img/distance.jpg)
+![distance](https://github.com/DiegoCefalo/reto_data/blob/main/img/distance.jpg)  
 ![speed](https://github.com/DiegoCefalo/reto_data/blob/main/img/speed.jpg)  
 However, when we graph speed vs distance, we can see that most trips do not surpass 60 km/h, and the ones that do, have a considerable greater distance, which means that these entries were recorded after going through the highway.  
 ![distance_speed](https://github.com/DiegoCefalo/reto_data/blob/main/img/distance_speed.jpg)
 On another note, we have 4 variables that affect the consumption slightly, yet we have to take into consideration the sum of all this factors.  
 When the AC is on, the consumtion is higher as expected.  
-![AC](https://github.com/DiegoCefalo/reto_data/blob/main/img/AC.jpg)
+![AC](https://github.com/DiegoCefalo/reto_data/blob/main/img/AC.jpg)  
 When it is raining, the consumtion is higher, which might be because rain usually accentuates traffic.  
-![rain](https://github.com/DiegoCefalo/reto_data/blob/main/img/rain.jpg)
+![rain](https://github.com/DiegoCefalo/reto_data/blob/main/img/rain.jpg)  
 When it is snowing, the consumtion is higher because the engine needs to be warmed up before driving.  
-![snow](https://github.com/DiegoCefalo/reto_data/blob/main/img/snow.jpg)
+![snow](https://github.com/DiegoCefalo/reto_data/blob/main/img/snow.jpg)  
 And viceversa, when it is sunny, the engine doesnt need to be warmed up, therefore it consumes less.  
-![sun](https://github.com/DiegoCefalo/reto_data/blob/main/img/sun.jpg)
+![sun](https://github.com/DiegoCefalo/reto_data/blob/main/img/sun.jpg)  
 
 Also, we can tell which variables are more correlates to consumption thanks to this heatmap:  
-![corr](https://github.com/DiegoCefalo/reto_data/blob/main/img/CorrHeatmap.jpg)
+![corr](https://github.com/DiegoCefalo/reto_data/blob/main/img/CorrHeatmap.jpg)  
 
 ## API
 A small API was created to access the data. Mysql was used to store the data and the "sqlalchemy" library was used to load the data into the database.
