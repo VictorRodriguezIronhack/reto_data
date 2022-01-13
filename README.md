@@ -1,3 +1,19 @@
+# Análisis de consumo en flota COBIFY.
+
+En este repositorio se analizan los datos de consumo de los vehículos de la empresa COBIFY.
+Se compone por 
+- un Jupyter Notebook donde se cargan, limpian y analizan los datos.
+- un archivo main.py a ejecutar con STREAMLIT donde se muestran los resultados en una página web para "presentar al cliente".
+
+Atentamente,
+Daniel
+
+
+
+
+
+
+
 # Bienvenido al reto de Cobify 🚕
 
 <img src="https://kamisetas.com/image/bordados/Cobi-Barcelona-92-parche.gif" alt="drawing" width="200"/>
