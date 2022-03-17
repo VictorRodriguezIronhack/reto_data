@@ -1,0 +1,9 @@
+**/.DS_Store
+**/*.ipynb_checkpoints/
+**/*.catboost_info/
+**/__pycache__
+.vscode
+.csv
+*.ipynb_checkpoints/
+data
+ideas_proyectos
